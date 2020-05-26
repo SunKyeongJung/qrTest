@@ -17,7 +17,9 @@
     <div id="outputMessage">No QR code detected.</div>
     <div hidden><b>Data:</b> <span id="outputData"></span></div>
   </div>
-  <script>
+</body>
+
+<script>
     var video = document.createElement("video");
     var canvasElement = document.getElementById("canvas");
     var canvas = canvasElement.getContext("2d");
@@ -75,5 +77,4 @@
       requestAnimationFrame(tick);
     }
   </script>
-</body>
 </html>

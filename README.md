@@ -1,2 +1,2 @@
 # qrTest
-qrTest
+qrTest readme

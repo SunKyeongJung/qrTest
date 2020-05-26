@@ -1,6 +1,6 @@
 function toast(string) {
     const toast = document.getElementById("toast");
-debugger;
+
     toast.classList.contains("reveal") ?
         (clearTimeout(removeToast), removeToast = setTimeout(function () {
             document.getElementById("toast").classList.remove("reveal")

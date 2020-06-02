@@ -26,3 +26,7 @@ h1 {margin: 10px 0; font-size: 40px;}
 #output {margin-top: 20px; background: #eee; padding: 10px; padding-bottom: 0;}
 #output div {padding-bottom: 10px; word-wrap: break-word;}
 #noQRFound {text-align: center;}
+
+fieldset> p{margin: 0;}
+fieldset> input[type=text], input[type=number], input[type=tel] {width:95%;}
+fieldset> button{margin-left:42%}
